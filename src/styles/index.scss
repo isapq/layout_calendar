@@ -31,176 +31,175 @@ $weekthree: 3;
 $weekfour: 4;
 $weekfive: 5;
 
-.container {
-  /* segundas */
+/* segundas */
 
-  .calendar__day--1 {
-    grid-column: $mon;
-    grid-row: $weekone;
-  }
+.calendar__day--1 {
+  grid-column: $mon;
+  grid-row: $weekone;
+}
 
-  .calendar__day--8 {
-    grid-column: $mon;
-    grid-row: $weektwo;
-  }
+.calendar__day--8 {
+  grid-column: $mon;
+  grid-row: $weektwo;
+}
 
-  .calendar__day--15 {
-    grid-column: $mon;
-    grid-row: $weekthree;
-  }
+.calendar__day--15 {
+  grid-column: $mon;
+  grid-row: $weekthree;
+}
 
-  .calendar__day--22 {
-    grid-column: $mon;
-    grid-row: $weekfour;
-  }
+.calendar__day--22 {
+  grid-column: $mon;
+  grid-row: $weekfour;
+}
 
-  .calendar__day--29 {
-    grid-column: $mon;
-    grid-row: $weekfive;
-  }
+.calendar__day--29 {
+  grid-column: $mon;
+  grid-row: $weekfive;
+}
 
-  /* END */
+/* END */
 
-  /* tercas */
+/* tercas */
 
-  .calendar__day--2 {
-    grid-column: $tue;
-    grid-row: $weektwo;
-  }
+.calendar__day--2 {
+  grid-column: $tue;
+  grid-row: $weektwo;
+}
 
-  .calendar__day--9 {
-    grid-column: $tue;
-    grid-row: 3;
-  }
+.calendar__day--9 {
+  grid-column: $tue;
+  grid-row: 3;
+}
 
-  .calendar__day--16 {
-    grid-column: $tue;
-    grid-row: $weekfour;
-  }
+.calendar__day--16 {
+  grid-column: $tue;
+  grid-row: $weekfour;
+}
 
-  .calendar__day--23 {
-    grid-column: $tue;
-    grid-row: $weekfive;
-  }
+.calendar__day--23 {
+  grid-column: $tue;
+  grid-row: $weekfive;
+}
 
-  /* END */
+/* END */
 
-  /* quartas */
+/* quartas */
 
-  .calendar__day--3 {
-    grid-column: $wed;
-    grid-row: $weektwo;
-  }
+.calendar__day--3 {
+  grid-column: $wed;
+  grid-row: $weektwo;
+}
 
-  .calendar__day--10 {
-    grid-column: $wed;
-    grid-row: $weekthree;
-  }
+.calendar__day--10 {
+  grid-column: $wed;
+  grid-row: $weekthree;
+}
 
-  .calendar__day--17 {
-    grid-column: $wed;
-    grid-row: $weekfour;
-  }
+.calendar__day--17 {
+  grid-column: $wed;
+  grid-row: $weekfour;
+}
 
-  .calendar__day--24 {
-    grid-column: $wed;
-    grid-row: $weekfive;
-  }
+.calendar__day--24 {
+  grid-column: $wed;
+  grid-row: $weekfive;
+}
 
-  /* END */
+/* END */
 
-  /* quintas */
+/* quintas */
 
-  .calendar__day--4 {
-    grid-column: $thu;
-    grid-row: $weektwo;
-  }
+.calendar__day--4 {
+  grid-column: $thu;
+  grid-row: $weektwo;
+}
 
-  .calendar__day--11 {
-    grid-column: $thu;
-    grid-row: $weekthree;
-  }
+.calendar__day--11 {
+  grid-column: $thu;
+  grid-row: $weekthree;
+}
 
-  .calendar__day--18 {
-    grid-column: $thu;
-    grid-row: $weekfour;
-  }
+.calendar__day--18 {
+  grid-column: $thu;
+  grid-row: $weekfour;
+}
 
-  .calendar__day--25 {
-    grid-column: $thu;
-    grid-row: $weekfive;
-  }
+.calendar__day--25 {
+  grid-column: $thu;
+  grid-row: $weekfive;
+}
 
-  /* END */
+/* END */
 
-  /* sextas */
+/* sextas */
 
-  .calendar__day--5 {
-    grid-column: $fri;
-    grid-row: $weektwo;
-  }
+.calendar__day--5 {
+  grid-column: $fri;
+  grid-row: $weektwo;
+}
 
-  .calendar__day--12 {
-    grid-column: $fri;
-    grid-row: $weekthree;
-  }
+.calendar__day--12 {
+  grid-column: $fri;
+  grid-row: $weekthree;
+}
 
-  .calendar__day--19 {
-    grid-column: $fri;
-    grid-row: $weekfour;
-  }
+.calendar__day--19 {
+  grid-column: $fri;
+  grid-row: $weekfour;
+}
 
-  .calendar__day--26 {
-    grid-column: $fri;
-    grid-row: 5;
-  }
+.calendar__day--26 {
+  grid-column: $fri;
+  grid-row: 5;
+}
 
-  /* END */
+/* END */
 
-  /* sabado */
+/* sabado */
 
-  .calendar__day--6 {
-    grid-column: $sat;
-    grid-row: $weektwo;
-  }
-  .calendar__day--13 {
-    grid-column: $sat;
-    grid-row: $weekthree;
-  }
-  .calendar__day--20 {
-    grid-column: $sat;
-    grid-row: $weekfour;
-  }
-  .calendar__day--27 {
-    grid-column: $sat;
-    grid-row: $weekfive;
-  }
+.calendar__day--6 {
+  grid-column: $sat;
+  grid-row: $weektwo;
+}
 
-  /* END */
+.calendar__day--13 {
+  grid-column: $sat;
+  grid-row: $weekthree;
+}
 
-  /* domingo */
+.calendar__day--20 {
+  grid-column: $sat;
+  grid-row: $weekfour;
+}
 
-  .calendar__day--7 {
-    grid-column: $sun;
-    grid-row: $weektwo;
-  }
+.calendar__day--27 {
+  grid-column: $sat;
+  grid-row: $weekfive;
+}
 
-  .calendar__day--14 {
-    grid-column: $sun;
-    grid-row: $weekthree;
-  }
+/* END */
 
-  .calendar__day--21 {
-    grid-column: $sun;
-    grid-row: $weekfour;
-  }
+/* domingo */
 
-  .calendar__day--28 {
-    grid-column: $sun;
-    grid-row: $weekfive;
-  }
+.calendar__day--7 {
+  grid-column: $sun;
+  grid-row: $weektwo;
+}
 
-  /* END */
+.calendar__day--14 {
+  grid-column: $sun;
+  grid-row: $weekthree;
+}
+
+.calendar__day--21 {
+  grid-column: $sun;
+  grid-row: $weekfour;
+}
+
+.calendar__day--28 {
+  grid-column: $sun;
+  grid-row: $weekfive;
 }
 
 /* END */
