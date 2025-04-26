@@ -69,7 +69,7 @@ $weekfive: 5;
 
 .calendar__day--9 {
   grid-column: $tue;
-  grid-row: 3;
+  grid-row: $weekthree;
 }
 
 .calendar__day--16 {
@@ -151,7 +151,7 @@ $weekfive: 5;
 
 .calendar__day--26 {
   grid-column: $fri;
-  grid-row: 5;
+  grid-row: $weekfive;
 }
 
 /* END */
